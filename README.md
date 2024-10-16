@@ -1,6 +1,9 @@
  # leave-no-one-behind
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
+
+Amanda Adolph Kasegenya - Computer Engineering, 
+
 Erick Ndalahwa - AUTIN Engineer
 
 Aloycius (Software developer)
@@ -28,5 +31,4 @@ GODFREY ENOSH - ML Engineer
 Judith Solomon - 3D Artist.
 
 Saidi Namtanga-Data Analyst
-
 
