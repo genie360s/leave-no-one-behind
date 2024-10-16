@@ -1,6 +1,7 @@
  # leave-no-one-behind
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
+Kelvin Goyayi - Computer Science
 
 Amanda Adolph Kasegenya - Computer Engineering, 
 
@@ -31,4 +32,5 @@ GODFREY ENOSH - ML Engineer
 Judith Solomon - 3D Artist.
 
 Saidi Namtanga-Data Analyst
+
 
