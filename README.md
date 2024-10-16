@@ -1,6 +1,9 @@
  # leave-no-one-behind
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
+Eric Kweyunga -- Computer Scientist
+
+Peter Mussa  -- Social Media Manager
 
 COLINS THOMAS - Electrical and software Engineer 
 
