@@ -13,10 +13,11 @@ COLINS THOMAS - Electrical and software Engineer
 
 AISHA KIMUNGWI - Business Administrator
 
+Bernard Masika - Unity Developer. 
+
 JOSEPH ALEX - Full-Stack Developer
 
 GODFREY ENOSH - ML Engineer
 
 Judith Solomon - 3D Artist.
-
 
