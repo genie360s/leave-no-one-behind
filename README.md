@@ -1,6 +1,10 @@
  # leave-no-one-behind
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
+Dickson john fredy - Computer science student
+
+Daniel Samson - Computer science student
+
 Glory mwakajonga - software developer
 
 Kelvin Goyayi - Computer Science
@@ -34,4 +38,5 @@ GODFREY ENOSH - ML Engineer
 Judith Solomon - 3D Artist.
 
 Saidi Namtanga-Data Analyst
+
 
