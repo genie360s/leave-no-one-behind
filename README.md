@@ -3,6 +3,10 @@
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
 
+Salma Nurudini - Accountant
+
+VeryniceGlory Lazaro - Data Scientist.
+
 Adam Katani - Software Engineer
 
 Eric Kweyunga -- Computer Scientist
@@ -20,4 +24,5 @@ JOSEPH ALEX - Full-Stack Developer
 GODFREY ENOSH - ML Engineer
 
 Judith Solomon - 3D Artist.
+
 
