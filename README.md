@@ -1,4 +1,3 @@
-
  # leave-no-one-behind
 Leave No One Behind. Hacktoberfest 2024 Tanzania Event
 
@@ -25,4 +24,7 @@ JOSEPH ALEX - Full-Stack Developer
 GODFREY ENOSH - ML Engineer
 
 Judith Solomon - 3D Artist.
+
+Saidi Namtanga-Data Analyst
+
 
