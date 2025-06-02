@@ -1,0 +1,122 @@
+name: Event Request Form
+description: Submit your event details for approval and support from Open Source Community Africa
+title: "[Event Request] <Event Name> - <Country>"
+labels: ["event", "request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📅 Event Information
+        _Please complete all applicable fields for your upcoming OSCA Chapter event._
+
+  - type: input
+    id: event-name
+    attributes:
+      label: Event Name
+      placeholder: e.g. OSCA Dar es Salaam Hackathon 2025
+    validations:
+      required: true
+
+  - type: textarea
+    id: event-description
+    attributes:
+      label: Event Description
+      description: Provide a clear summary of your event including the goal and format.
+    validations:
+      required: true
+
+  - type: input
+    id: event-date
+    attributes:
+      label: Event Date
+      placeholder: dd/mm/yyyy
+    validations:
+      required: true
+
+  - type: input
+    id: event-time
+    attributes:
+      label: Event Time
+      placeholder: e.g. 10:00 AM (EAT)
+    validations:
+      required: true
+
+  - type: input
+    id: event-duration
+    attributes:
+      label: Event Duration
+      placeholder: e.g. 4 hours
+    validations:
+      required: true
+
+  - type: input
+    id: event-location
+    attributes:
+      label: Event Location
+      placeholder: e.g. University of Dar es Salaam, CoICT Auditorium
+    validations:
+      required: true
+
+  - type: input
+    id: estimated-attendees
+    attributes:
+      label: Estimated Number of Attendees
+      placeholder: e.g. 50 - OSCA Event Group A
+    validations:
+      required: true
+
+  - type: input
+    id: rsvp-link
+    attributes:
+      label: Event RSVP Link
+      placeholder: https://link.to/event-registration
+    validations:
+      required: true
+
+  - type: textarea
+    id: chapter-benefit
+    attributes:
+      label: How does this benefit your chapter?
+      description: Explain why OSCA should approve this event and how it aligns with your chapter goals.
+    validations:
+      required: true
+
+  - type: textarea
+    id: help-needed
+    attributes:
+      label: What help do you need with this event?
+      description: Let us know how OSCA can support this event (e.g. swag, promotion, budget).
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist-before-post
+    attributes:
+      label: ✅ Before You Post This Issue
+      options:
+        - label: You have followed the issue title format.
+        - label: You have applied the correct labels (Country, Type of Event, Requests).
+        - label: You have created a budget using the [budget template](https://bit.ly/3SmTFQa) (if you need sponsorship).
+        - label: You have completed the [request form](https://bit.ly/osca-cl-request) (if you need sponsorship).
+
+  - type: checkboxes
+    id: checklist-before-event
+    attributes:
+      label: 📦 Before the Event
+      options:
+        - label: Your event is approved.
+        - label: Your RSVP page has been created.
+        - label: [FOR NON-NIGERIANS] You have submitted an invoice on [Open Collective](https://opencollective.com/osca/projects/osca-community/expenses/new) using your event issue title.
+        - label: [FOR NIGERIANS] You are waiting for the local bank transfer from our finance team.
+        - label: You have received sponsorship (if requested).
+
+  - type: checkboxes
+    id: checklist-after-event
+    attributes:
+      label: 🧾 After the Event
+      options:
+        - label: You have completed the [post-event report](https://github.com/oscafrica/chapter-leads-hub/blob/master/docs/post-event-template.md).
+        - label: You have submitted all [related expense receipts](https://github.com/oscafrica/chapter-leads-hub/blob/master/docs/expenses.md#tracking-your-expenses).
+        - label: This issue is closed.
