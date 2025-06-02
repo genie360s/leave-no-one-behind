@@ -1,15 +1,16 @@
-name: Event Request Form
-description: Submit your event details for approval and support from Open Source Community Africa
-title: "[Event Request] <Event Name> - <Country>"
+name: 🌍 OSCA Event Request
+description: Submit a request to host an Open Source Community Africa chapter event.
+title: "[Event Request]: <Event Name> - <Country>"
 labels: ["event", "request"]
 assignees: []
+projects: []
 
 body:
   - type: markdown
     attributes:
       value: |
         ## 📅 Event Information
-        _Please complete all applicable fields for your upcoming OSCA Chapter event._
+        Please fill in all applicable details for your upcoming OSCA chapter event.
 
   - type: input
     id: event-name
@@ -23,7 +24,7 @@ body:
     id: event-description
     attributes:
       label: Event Description
-      description: Provide a clear summary of your event including the goal and format.
+      description: Provide a clear summary of your event, including format and goal.
     validations:
       required: true
 
@@ -63,6 +64,7 @@ body:
     id: estimated-attendees
     attributes:
       label: Estimated Number of Attendees
+      description: Refer to OSCA's [event groups](https://github.com/oscafrica/chapter-leads-hub/blob/master/docs/event-budget.md#event-groups)
       placeholder: e.g. 50 - OSCA Event Group A
     validations:
       required: true
@@ -71,7 +73,7 @@ body:
     id: rsvp-link
     attributes:
       label: Event RSVP Link
-      placeholder: https://link.to/event-registration
+      placeholder: https://example.com/rsvp
     validations:
       required: true
 
@@ -91,32 +93,40 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
-    id: checklist-before-post
+  - type: markdown
     attributes:
-      label: ✅ Before You Post This Issue
-      options:
-        - label: You have followed the issue title format.
-        - label: You have applied the correct labels (Country, Type of Event, Requests).
-        - label: You have created a budget using the [budget template](https://bit.ly/3SmTFQa) (if you need sponsorship).
-        - label: You have completed the [request form](https://bit.ly/osca-cl-request) (if you need sponsorship).
+      value: |
+        ## ✅ Pre-Submission Checklist
+        Confirm you have completed the following before submitting.
+        - [Budget template link](https://bit.ly/3SmTFQa)
+        - [Request form link](https://bit.ly/osca-cl-request)
 
   - type: checkboxes
-    id: checklist-before-event
+    id: before-submission
     attributes:
-      label: 📦 Before the Event
+      label: Before you post the issue
       options:
-        - label: Your event is approved.
-        - label: Your RSVP page has been created.
-        - label: [FOR NON-NIGERIANS] You have submitted an invoice on [Open Collective](https://opencollective.com/osca/projects/osca-community/expenses/new) using your event issue title.
-        - label: [FOR NIGERIANS] You are waiting for the local bank transfer from our finance team.
-        - label: You have received sponsorship (if requested).
+        - label: I have followed the issue title format.
+        - label: I have applied the correct labels (Country, Type of Event, Requests).
+        - label: I have created a budget for my event (if I need sponsorship).
+        - label: I have completed the request form (if I need sponsorship).
 
   - type: checkboxes
-    id: checklist-after-event
+    id: before-event
     attributes:
-      label: 🧾 After the Event
+      label: Before the event
       options:
-        - label: You have completed the [post-event report](https://github.com/oscafrica/chapter-leads-hub/blob/master/docs/post-event-template.md).
-        - label: You have submitted all [related expense receipts](https://github.com/oscafrica/chapter-leads-hub/blob/master/docs/expenses.md#tracking-your-expenses).
-        - label: This issue is closed.
+        - label: My event is approved.
+        - label: My event's RSVP page has been created.
+        - label: For non-Nigerians, I have submitted an expense request on Open Collective using my event title.
+        - label: For Nigerians, I am waiting for a bank transfer from the financial manager.
+        - label: I have received sponsorship and am ready to go (if applicable).
+
+  - type: checkboxes
+    id: after-event
+    attributes:
+      label: After the event
+      options:
+        - label: I have completed the post-event report.
+        - label: I have submitted all related expense receipts as required.
+        - label: This issue is ready to be closed.
